@@ -1,0 +1,25 @@
+.dropdown{
+    cursor: pointer;
+}
+.dropdown:hover{
+    color :green;
+    text-decoration: underline;
+}
+.dropdown-content{
+    display: none;
+}
+.dropdown-trigger:hover > .dropdown-content{
+    display: initial;
+}
+.dropdown-UGcourses{
+    display: none;
+}
+.dropdown-triggerUG:hover > .dropdown-UGcourses{
+    display: initial;
+}
+.dropdown-PGcourses{
+    display: none;
+}
+.dropdown-triggerPG:hover > .dropdown-PGcourses{
+    display: initial;
+}
